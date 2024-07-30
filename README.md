@@ -1,12 +1,13 @@
 # RodXY
 A CoreXY 3D Printer designed by Marzifu, with the main goal of achieving low cost and high performing printer.
+
 ![Initial Design](https://github.com/marzifu/RodXY/blob/main/IMG/Teaser.png)
 
 ### Preface
 
 I am not a professional, just an avid 3d printer enthusiast. Last owned a Kingroon KP3S Pro V2 and it had tons of problems with the CANBus and the motherboard.
 
-So I then swapped the mainboard to a SKR Mini E3 V3 and here I am, designing my own CoreXY Printer.
+So I then swapped the mainboard to a SKR Mini E3 V3, but since my bed is warped and the whole thing is sitting in a corner because the hardware (broken pulley and a warped bed), here I am, designing my own CoreXY Printer.
 
 ## Main Goals
 1. Create a working CoreXY Printer with decent printing speed (250mm/s?)
