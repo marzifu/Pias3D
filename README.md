@@ -27,7 +27,7 @@ So I then swapped the mainboard to a SKR Mini E3 V3, but since my bed is warped 
 #To Do List
 1. Re-Drawing the whole design as currently today, 12 August 2024, I have some more design considerations and ideas for the rig. Especially regarding the extruder and the main carriage design.
 2. Creating an extruder design!
-   > This thought comes because using BMG the nozzle is offset by a little bit and is not centered, which if I were to add a leveling sensor I would have to compromise on the placement and it would look janky-ish and I want to avoid    that. The main design inspiration is the ![Orbiter](https://www.orbiterprojects.com/orbiter-v2-0/) by Lorincz Robert and ![Sherpa Micro](https://github.com/Annex-Engineering/Sherpa_Micro-Extruder/tree/main) by Annex Engineering.
+   > This thought comes because using BMG the nozzle is offset by a little bit and is not centered, which if I were to add a leveling sensor I would have to compromise on the placement and it would look janky-ish and I want to avoid    that. The main design inspiration is the [Orbiter](https://www.orbiterprojects.com/orbiter-v2-0/) by Lorincz Robert and [Sherpa Micro](https://github.com/Annex-Engineering/Sherpa_Micro-Extruder/tree/main) by Annex Engineering.
 3. Save up for the main carriage prototype
 4. Build the whole thing! 
 
