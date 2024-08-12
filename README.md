@@ -11,7 +11,7 @@ So I then swapped the mainboard to a SKR Mini E3 V3, but since my bed is warped 
 
 ## Main Goals
 1. Create a working CoreXY Printer with decent printing speed (250mm/s?)
- > I don't know the exact spec I want, but being able to reach a 10.000mm/s and a250mm/s speed is a good benchmark for my initial design. Next step would be changing the motors and maybe the belts for bigger printing plaform.
+ > I don't know the exact spec I want, but being able to reach a 10.000mm/s accel and 250mm/s speed is a good benchmark for my initial design. Next step would be changing the motors and maybe the belts for bigger printing plaform.
 2. Minimize the cost of manufacturing the printer
  > At the time I am using a 20XX VSlot extrusion and there's some machined part for the bed, I want to maybe change it to 30XX since here in Indonesia the price might be cheaper. Other than that I might want to redesign some of the structure to have more rigidity but less extrusion needed.
 3. It's for everyone.
