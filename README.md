@@ -1,4 +1,4 @@
-# RodXY
+# CubeXY
 A CoreXY 3D Printer designed by Marzifu, with the main goal of achieving low cost and high performing printer.
 
 ![Initial Design](https://github.com/marzifu/RodXY/blob/main/IMG/Teaser.png)
