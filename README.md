@@ -1,45 +1,40 @@
 # CubeXY
 A CoreXY 3D Printer designed by Marzifu, with the main goal of achieving low cost and high performing printer.
 
-![Initial Design](https://github.com/marzifu/RodXY/blob/main/IMG/Teaser.png)
-
 ### Preface
+I like printing, but sometimes its fussy and my old printer needed a ton of work for it to be printing reliably and it can't print the higher temp materials like PETG and ABS with good results. 
 
-I am not a professional, just an avid 3d printer enthusiast. Last owned a Kingroon KP3S Pro V2 and it had tons of problems with the CANBus and the motherboard.
-
-So I then swapped the mainboard to a SKR Mini E3 V3, but since my bed is warped and the whole thing is sitting in a corner because the hardware (broken pulley and a warped bed), here I am, designing my own CoreXY Printer.
+So then I thought, what if I built a machinen that can do that with a budget as small as possible and make it so that everyone can build it themselves?
 
 ## Main Goals
 1. Create a working CoreXY Printer with decent printing speed (250mm/s?)
  > I don't know the exact spec I want, but being able to reach a 10.000mm/s accel and 250mm/s speed is a good benchmark for my initial design. Next step would be changing the motors and maybe the belts for bigger printing plaform.
 2. Minimize the cost of manufacturing the printer
- > At the time I am using a 20XX VSlot extrusion and there's some machined part for the bed, I want to maybe change it to 30XX since here in Indonesia the price might be cheaper. Other than that I might want to redesign some of the structure to have more rigidity but less extrusion needed.
-3. It's for everyone.
- > I want this build to be a blueprint that can be improved on by anyone, since after my experience designing the moving parts, it is kind of finicky. I hope we'll be able to build something for everyone with low budget in mind.
+ > This means I need to find the easiest and cheapest materials that everyone can get and still give the best possible effect with that materials. My goal is to push the cost as little as possible
+3. It has to be enclosed
+ > Having seen a lot of enclosed printer lately and thought that might be cool, the first idea is to use acrylic, and I'll go from there. Though I will be leaving the top side open, since I still haven't figured out the correct build to accommodate a fully enclosed one.
+4. Fully automatic calibration
+> This has been a point of thought too, since after some time adjusting Z offset and whatnot every other print is just not fun. So I want to make the calibrations of the printer can be done automatically, easily, and accurately. Less setting more printing I guess.
+5. It has to be quiet
+> After using a 5015 powered part cooling fan and switching the cooling to dual 4010s, it felt like a dream. I forgot my printer was inside the room and just felt "woah its printing" and thought that was a good idea, although I don't know if that's an actual good idea instead of using a possibly quiet 5015s
 
 ## Side Goals
-1. Create a janky multi-color system for the RodXY
- > This has been a side goal, that I might try to achieve by having 3-5 extruders funneled into the main extruder carriage. I will be using the same mainboard its just that the mosfet on this board has been blown.
-2. Sell it?
- > Since here in Indonesia there's really no 3d printer manufacturer, and the price of a lot of printer just doesn't make sense. I hope that by selling a kit or an complete assembly of a 3d printer would make the idea of "3D Printing is affordable" to be in people's mind (bit far fetched, but it's my honest hope regardless).
-
+1. Making it available
+> What I mean  by this is possibly making a half assembled part for anyone that is interested or wants to get into 3D printing. I know it's kinda ambitious, but maybe it's doable somehow. Especially here in Indonesia I thought that if I can make it cheap and accessible 3D printing could be more mainstream.
+2. Multi-color?
+> I have an inkling of an idea to make a sort of extruder station that could store a couple of filaments and that would get pushed into a single extruder. Which would require 2 boards or a board with quite a lot of stepper drivers, this is a plan.
+3. Upgrades!
+> Hardware changes and software changes will always be posted here, But why is this one side goals? Because I mostly am slow at understanding what's needed for the next step be it in hardware or software, and there might be a lot of feedback and thus I will take more time.
 
 # To Do List
-1. Re-Drawing the whole design as currently today, 12 August 2024, I have some more design considerations and ideas for the rig. Especially regarding the extruder and the main carriage design.
-2. Creating an extruder design!
-   > This thought comes because using BMG the nozzle is offset by a little bit and is not centered, which if I were to add a leveling sensor I would have to compromise on the placement and it would look janky-ish and I want to avoid    that. The main design inspiration is the [Orbiter](https://www.orbiterprojects.com/orbiter-v2-0/) by Lorincz Robert and [Sherpa Micro](https://github.com/Annex-Engineering/Sherpa_Micro-Extruder/tree/main) by Annex Engineering.
-3. Save up for the main carriage prototype
-4. Build the whole thing! 
-
+1. Drawing the initial design
+2. Listing the rough Bill of Materials
+3. Building the v1
+4. Testing and calibrating
+5. Happy printing~ (I hope)
 
  
 # Bill Of Materials
 ### Will be updated soon!
 The parts will be separated into categories for an easier time to understand the needed materials.
-
-### Frame
-| Items | Quantity |
-|---|---|
-| 2020 VSlot @30cm | 2 |
-| 2020 VSlot @34cm | 2 |
  
