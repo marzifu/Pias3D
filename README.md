@@ -1,40 +1,36 @@
-# CubeXY
-A CoreXY 3D Printer designed by Marzifu, with the main goal of achieving low cost and high performing printer.
+# The Problem
+I've always wanted to make and/or source my own Voron and the likes. But the main problem I kept facing is the unimaginably expensive kits that are being sold here in Indonesia, or just the shipment cost + tax that doesn't make sense for me to pay.
 
-### Preface
-I like printing, but sometimes its fussy and my old printer needed a ton of work for it to be printing reliably and it can't print the higher temp materials like PETG and ABS with good results. 
+Other than that the cost of basically the cheapest CoreXY is around $800 USD _my hopes and dreams_.
 
-So then I thought, what if I built a machinen that can do that with a budget as small as possible and make it so that everyone can build it themselves?
+# The Solution?
+I learnt how to use FreeCAD to draw up my hilariously bad designs until I came to this rendition of the machine which I called Ouroboros. _fancy~_
 
-## Main Goals
-1. Create a working CoreXY Printer with decent printing speed (250mm/s?)
- > I don't know the exact spec I want, but being able to reach a 10.000mm/s accel and 250mm/s speed is a good benchmark for my initial design. Next step would be changing the motors and maybe the belts for bigger printing plaform.
-2. Minimize the cost of manufacturing the printer
- > This means I need to find the easiest and cheapest materials that everyone can get and still give the best possible effect with that materials. My goal is to push the cost as little as possible
-3. It has to be enclosed
- > Having seen a lot of enclosed printer lately and thought that might be cool, the first idea is to use acrylic, and I'll go from there. Though I will be leaving the top side open, since I still haven't figured out the correct build to accommodate a fully enclosed one.
-4. Fully automatic calibration
-> This has been a point of thought too, since after some time adjusting Z offset and whatnot every other print is just not fun. So I want to make the calibrations of the printer can be done automatically, easily, and accurately. Less setting more printing I guess.
-5. It has to be quiet
-> After using a 5015 powered part cooling fan and switching the cooling to dual 4010s, it felt like a dream. I forgot my printer was inside the room and just felt "woah its printing" and thought that was a good idea, although I don't know if that's an actual good idea instead of using a possibly quiet 5015s
+But no, the name just suggest the eternal loop of fixing, upgrading, maintenance, and what not. Which is what I want to minimize by creating a "proper" machine.
 
-## Side Goals
-1. Making it available
-> What I mean  by this is possibly making a half assembled part for anyone that is interested or wants to get into 3D printing. I know it's kinda ambitious, but maybe it's doable somehow. Especially here in Indonesia I thought that if I can make it cheap and accessible 3D printing could be more mainstream.
-2. Multi-color?
-> I have an inkling of an idea to make a sort of extruder station that could store a couple of filaments and that would get pushed into a single extruder. Which would require 2 boards or a board with quite a lot of stepper drivers, this is a plan.
-3. Upgrades!
-> Hardware changes and software changes will always be posted here, But why is this one side goals? Because I mostly am slow at understanding what's needed for the next step be it in hardware or software, and there might be a lot of feedback and thus I will take more time.
+So after scouring countless builds of 3D printers, anything from Rolohaun's build, Mikhail Design's build, and Voron's. I decided to find parts that is easily found here, and thus decided to design a machine around the parts that I find. With the main focus of:
 
-# To Do List
-1. Drawing the initial design
-2. Listing the rough Bill of Materials
-3. Building the v1
-4. Testing and calibrating
-5. Happy printing~ (I hope)
+### 1) Keeping It Affordable
+The reason this is the main focus is because, good 3D printers are expensive— Even more so for CoreXY systems (Usually an additional $200-$300 _yikes_).
 
- 
-# Bill Of Materials
-### Will be updated soon!
-The parts will be separated into categories for an easier time to understand the needed materials.
+So with that I tried to find hardwares that are a good start, but could be upgraded along the way. Because the important part is for you (and me) as a hobbyist, to be able to build a machine.
+
+### 2) Ease of Procurement
+I know this is different to everyone, but my main goal for now is to make a machine that could easily be built by anyone with what we have (Importing's out of the question for us, _unless you have a wae_, in which I dont).
+
+Though there are some Mellow parts that are being sold, the parts are almost 5x of some generic ones. You can get those parts sure, but for the sake of keeping my wallet not empty I am crossing that.
+
+### 3) Upgrade and Update
+My first experience with troubleshooting a printer is with a Kingroon KP3S Pro V2, which wasn't fun. I had to replace the mainboard two times, and then ended up switching to a BTT board which is going great.
+
+Tinkering is not fun, if its undocumented and you can reach no one. With that the plan is to document every single upgrades, and update this repository for future builds. It could be some loose fits, or even some arbitrary auxiliary stuff, but documentations are crucial for the longevity of this project.
+
+# README Logs
+### 04/25/2025
+Finally back to maintaining this repository after I actually finished the 4th? 6th? rendition of this project. The basic idea of selling it is still in mind, but right not he focus is to have a proper prototype build that could work to print virtually any "normal" material eg. PETG, ABS, ASA, TPU.
+
+I'll try to make a comprehensive build guide, but I do not know how to make a guide like how Voron/Annex which is what I strive for. It's going to be scuffed, but please bear with me.
+
+The next update on this log would probably be an update by creating BOM and pricing in IDR (Indonesian Rupiah), and then converting it to dollars and then saving the links somewhere.
+Cheers to this project!
  
