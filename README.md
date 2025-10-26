@@ -4,7 +4,7 @@ I've always wanted to make and/or source my own Voron and the likes. But the mai
 Other than that the cost of basically the cheapest CoreXY is around $800 USD _my hopes and dreams_.
 
 # The Solution?
-I learnt how to use FreeCAD to draw up my hilariously bad designs until I came to this rendition of the machine which I called Ouroboros. _fancy~_
+I learnt how to use FreeCAD to draw up my hilariously bad designs until I came to this rendition of the machine which I called Pias. _fancy~_
 
 But no, the name just suggest the eternal loop of fixing, upgrading, maintenance, and what not. Which is what I want to minimize by creating a "proper" machine.
 
@@ -25,7 +25,7 @@ My first experience with troubleshooting a printer is with a Kingroon KP3S Pro V
 
 Tinkering is not fun, if its undocumented and you can reach no one. With that the plan is to document every single upgrades, and update this repository for future builds. It could be some loose fits, or even some arbitrary auxiliary stuff, but documentations are crucial for the longevity of this project.
 
-# README Logs
+# Changelogs
 ### 04/25/2025
 Finally back to maintaining this repository after I actually finished the 4th? 6th? rendition of this project. The basic idea of selling it is still in mind, but right not he focus is to have a proper prototype build that could work to print virtually any "normal" material eg. PETG, ABS, ASA, TPU.
 
